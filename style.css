@@ -1,0 +1,122 @@
+
+
+
+.dark
+{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 22px;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+h2{
+    font-size: 3.3rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    color:white
+
+}
+
+.weatherform {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.weatherform input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.weatherform button {
+    padding: 10px 15px;
+    border: none;
+    background: #0078ff;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.card {
+background: linear-gradient(to bottom, #FF7E5F, #6A82FB);
+
+box-shadow: 2px 2px 5px rgb(0%, 0%, 0% , 0.5);
+min-width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 30px;
+height:430PX;
+
+
+  background-image: url("image/1.jpg"); /* chemin de ton image */
+  background-size: cover;    /* ajuste l’image à la taille du div */
+  background-position: center; /* centre l’image */
+  background-repeat: no-repeat;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.tempdispaly{
+font-size: 2rem;
+color: white;
+}
+
+.Weatheremoji{
+
+    font-size:6.5rem;
+
+}
+.humiditydisplay{
+    font-weight: bold;
+    color: white;
+
+}
+.descdisplay {
+    font-size: 1.7rem;
+    color: white;
+
+}
+.citydisplay{
+    color: white;
+}
+.dark-mode {
+    background-image: url(image/aurora-1866508.jpg);
+    color: white !important;
+}
+
+
+.dark-mode .container h2 {
+    color: white;
+}
+
+.dark-mode .weatherform input {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .weatherform button {
+    background: #444;
+}
+
+.dark-mode .card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+body{
+    background-image: url(image/1.jpg);
+}
