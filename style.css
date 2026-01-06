@@ -60,7 +60,7 @@ border-radius: 30px;
 height:430PX;
 
 
-  background-image: url("image/1.jpg"); /* chemin de ton image */
+  background-image: url("1.jpg"); /* chemin de ton image */
   background-size: cover;    /* ajuste l’image à la taille du div */
   background-position: center; /* centre l’image */
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@ color: white;
     color: white;
 }
 .dark-mode {
-    background-image: url(image/aurora-1866508.jpg);
+    background-image: url(aurora-1866508.jpg);
     color: white !important;
 }
 
@@ -118,5 +118,6 @@ color: white;
 }
 
 body{
-    background-image: url(image/1.jpg);
+    background-image: url(1.jpg);
 }
+
